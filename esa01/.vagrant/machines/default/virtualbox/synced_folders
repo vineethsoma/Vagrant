@@ -1,1 +1,1 @@
-{"virtualbox":{"/lcm":{"guestpath":"/lcm","hostpath":"/disk1/lcm","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/vineeth/Vagrant/esa01","disabled":false}}}
+{"virtualbox":{"/lcm":{"guestpath":"/lcm","hostpath":"/disk1/lcm","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/iamuser/Vagrant/esa01","disabled":false}}}
