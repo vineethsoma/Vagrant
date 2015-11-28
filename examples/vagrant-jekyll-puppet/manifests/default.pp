@@ -8,10 +8,10 @@ package { 'nodejs' :
 package { 'lynx-cur' :
 	require => Exec['apt-get update']
 }
-package { 'ruby1.9.1-dev' : 
+package { 'ruby1.9.3' : 
 	require => Exec['apt-get update']
 }
 exec { 'Install Jekyll' : 
 	command => '/usr/bin/gem install jekyll',
-	require => Package['ruby1.9.1-dev']
+	require => Package['ruby1.9.3']
 }
